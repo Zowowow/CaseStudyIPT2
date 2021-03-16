@@ -20,6 +20,14 @@ public class BasicGeometry {
          System.out.println(fmla.perimeterOfRectangle(10.0,9.0));
          System.out.println(fmla.perimeterOfParallelogram(4.0,6.5));
          //end
+
+	//Made by Nikol Alexis Dizon
+         //start
+         System.out.println(fmla.volumeOfCone(15.0,12.0));
+         System.out.println(fmla.volumeOfSphere(10.0));
+         System.out.println(fmla.volumeOfCylinder(5.2,6.8));
+         System.out.println(fmla.volumeOfRectangular(5.0,4.5,3.0));
+          //end
     }
 
 }
@@ -65,5 +73,28 @@ class Formulas{
         return perim;
     }
     //end
+
+	//Made by Nikol Alexis Dizon
+    //start
+    public double volumeOfSphere(double r){
+        double pi =  3.1415;
+        double vol = (1.3333)(pi(rrr));
+        return vol;
+    }
+    public double volumeOfCylinder(double r, double h){
+        double pi =  3.1415;
+        double vol = (pi)(rr)(h);
+        return vol;
+    }
+    public double volumeOfCone(double r,double h){
+        double pi =  3.1415;
+        double vol = (0.3333)(pi)(rr)(h);
+        return vol;
+    }
+    public double volumeOfRectangular(double l,double w, double h){
+        double vol = lw*h;
+        return vol;
+    }
+     //end
 }
 
