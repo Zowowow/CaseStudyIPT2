@@ -13,6 +13,13 @@ public class BasicGeometry {
          System.out.println(fmla.areaOfRectangle(4.5,3.5));
          //end
 
+	//Made By Marvelous Patrick Malungcut
+         //start
+         System.out.println(fmla.perimeterOfCircle(7.0));
+         System.out.println(fmla.perimeterOfSquare(6.0));
+         System.out.println(fmla.perimeterOfRectangle(10.0,9.0));
+         System.out.println(fmla.perimeterOfParallelogram(4.0,6.5));
+         //end
     }
 
 }
@@ -38,5 +45,25 @@ class Formulas{
         return area;
     }
     //end
-
+	//Made by Marvelous Patrick Malungcut
+    //start
+    public double perimeterOfCircle(double r){
+        double pi =  3.1415;
+        double perim = ((2pi)(r));
+        return perim;
+    }
+    public double perimeterOfSquare(double a){
+        double perim = (4a);
+        return perim;
+    }
+    public double perimeterOfRectangle(double b, double h){
+        double perim = 2(b + h);
+        return perim;
+    }
+    public double perimeterOfParallelogram(double b, double h){
+        double perim = 2(b + h);
+        return perim;
+    }
+    //end
 }
+
